@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="1dp"
+    app:contentPadding="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:outlineSpotShadowColor="@color/colorSecondaryLight"
+    android:outlineAmbientShadowColor="@color/colorSecondaryLight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtViewGroupId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            tools:text="User" />
+
+        <TextView
+            android:id="@+id/txtViewGroupName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            tools:text="Name" />
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
